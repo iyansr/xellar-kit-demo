@@ -1,16 +1,18 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { ConnectButton } from '@xellar/kit';
 import { erc20Abi, formatUnits, parseEther } from 'viem';
-import { polygonAmoy } from 'viem/chains';
 import {
   useAccount,
   useReadContract,
   useSignMessage,
   useSendTransaction,
+  useChainId,
 } from 'wagmi';
 
 function App() {
   const { address } = useAccount();
+
+  const chainId = useChainId();
 
   const {
     signMessage,
@@ -24,7 +26,7 @@ function App() {
     address: '0xED96b2d5C0cD8c46F27e36d289C63D6E1A6BDeCa',
     functionName: 'balanceOf',
     args: [address as `0x${string}`],
-    chainId: polygonAmoy.id,
+    chainId,
     query: {
       enabled: !!address,
     },
@@ -42,11 +44,16 @@ function App() {
     await sendTransactionAsync({
       to: address as `0x${string}`,
       value: parseEther('0'),
+      chainId,
     });
   };
 
   return (
     <div className="flex flex-col gap-4 items-center justify-center min-h-dvh w-screen bg-neutral-900 p-12">
+      <div className="text-center text-2xl font-bold pb-6 text-white">
+        <h2>Xellar Kit Demo</h2>
+      </div>
+
       <ConnectButton />
 
       {address && (
