@@ -6,7 +6,7 @@ import { polygonAmoy } from 'viem/chains';
 
 const xellarAppId = import.meta.env.VITE_XELLAR_APP_ID;
 const walletConnectProjectId = import.meta.env.VITE_WC_PROJECT_ID;
-
+const googleClientId = import.meta.env.VITE_XELLAR_GOOGLE_CLIENT_ID;
 const config = defaultConfig({
   appName: 'Xellar',
   // Required for WalletConnect
@@ -28,7 +28,7 @@ export const Web3Provider = ({ children }: { children: React.ReactNode }) => {
         <XellarKitProvider
           theme={darkTheme}
           // Fill this if you want to use Google Auth
-          //  googleClientId="YOUR_GOOGLE_CLIENT_ID"
+          googleClientId={googleClientId}
           //  // Fill this if you want to use Telegram Auth
           //  telegramConfig={{
           //    botId: 'YOUR_TELEGRAM_BOT_ID',
