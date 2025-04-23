@@ -15,8 +15,8 @@ importers:
         specifier: ^5.68.0
         version: 5.68.0(react@19.0.0)
       '@xellar/kit':
-        specifier: 2.0.3
-        version: 2.0.3(@emotion/is-prop-valid@1.2.2)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10))(wagmi@2.14.13(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)))
+        specifier: 2.0.6
+        version: 2.0.6(@emotion/is-prop-valid@1.2.2)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10))(wagmi@2.14.13(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)))
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -1689,8 +1689,8 @@ packages:
   '@walletconnect/window-metadata@1.0.1':
     resolution: {integrity: sha512-9koTqyGrM2cqFRW517BPY/iEtUDx2r1+Pwwu5m7sJ7ka79wi3EyqhqcICk/yDmv6jAS1rjKgTKXlEhanYjijcA==}
 
-  '@xellar/kit@2.0.3':
-    resolution: {integrity: sha512-Q7EhFGPJ1u/OVCbQF5fi9smwU/+G2bt4VE4+VkFIqP1vJ21lnAyDdY4mpkdxxrtuYUAM24VxRRk7VU+yuq3beA==}
+  '@xellar/kit@2.0.6':
+    resolution: {integrity: sha512-gJHb5+mWGmui81n5rrj8dHSiAKYzHGzCDb4Zu1XgcrZ3MbdJ2I3euIOfTU/MUMOW+buH6pNTO4H+UpEQCIAVOg==}
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'
       react: '>=18'
@@ -1698,8 +1698,8 @@ packages:
       viem: ^2.22.x
       wagmi: ^2.x
 
-  '@xellar/sdk@4.2.12':
-    resolution: {integrity: sha512-BtEEqP33fvGMkkrtkCZL7qMU5CrpxEwlPAqNsYAFk/OESxzY0BhxYI7SQRHCKhUtiJyo3EbVm2TdD13QvhmXuQ==}
+  '@xellar/sdk@4.2.13':
+    resolution: {integrity: sha512-dkbCLjCG7vzLv2ILG3nnvopnld5x1qXuAG4006GrTVt/I7BsglOINM4hbXRBsyg8RavAzkJS4ymF/BKIe1YHOA==}
     peerDependencies:
       react-native-quick-crypto: ^0.7.6
 
@@ -6448,11 +6448,11 @@ snapshots:
       '@walletconnect/window-getters': 1.0.1
       tslib: 1.14.1
 
-  '@xellar/kit@2.0.3(@emotion/is-prop-valid@1.2.2)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10))(wagmi@2.14.13(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)))':
+  '@xellar/kit@2.0.6(@emotion/is-prop-valid@1.2.2)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))(react@19.0.0)(use-sync-external-store@1.4.0(react@19.0.0))(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10))(wagmi@2.14.13(@tanstack/query-core@5.68.0)(@tanstack/react-query@5.68.0(react@19.0.0))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(typescript@5.7.3)(utf-8-validate@5.0.10)(viem@2.23.11(bufferutil@4.0.9)(typescript@5.7.3)(utf-8-validate@5.0.10)))':
     dependencies:
       '@react-oauth/google': 0.12.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@tanstack/react-query': 5.68.0(react@19.0.0)
-      '@xellar/sdk': 4.2.12(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))
+      '@xellar/sdk': 4.2.13(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))
       clsx: 2.1.1
       input-otp: 1.4.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       js-cookie: 3.0.5
@@ -6473,7 +6473,7 @@ snapshots:
       - react-native-quick-crypto
       - use-sync-external-store
 
-  '@xellar/sdk@4.2.12(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))':
+  '@xellar/sdk@4.2.13(react-native-quick-crypto@0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0))':
     dependencies:
       axios: 1.8.3
       react-native-quick-crypto: 0.7.12(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(@types/react@19.0.10)(bufferutil@4.0.9)(react@19.0.0)(utf-8-validate@5.0.10))(react@19.0.0)
